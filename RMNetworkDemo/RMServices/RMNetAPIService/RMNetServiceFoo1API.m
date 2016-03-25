@@ -29,12 +29,7 @@
 
 - (NSString *)baseURL
 {
-    return @"http://www.baidu.com";
-}
-
-- (NSString *)token
-{
-    return @"";
+    return @"https://www.baidu.com";
 }
 
 - (RMRequestMethod)requestMethod
@@ -49,7 +44,7 @@
 
 - (RMResponseSerializerType)responseSerializerType
 {
-    return RMResponseSerializerTypeJSON;
+    return RMResponseSerializerTypeHTTP;
 }
 
 @end
